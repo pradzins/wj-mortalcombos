@@ -10,8 +10,7 @@ To make things as smooth as possible, please make sure you'll have:
 Clone this repo, import the project into new Eclipse workspace and check if at least one test passes. 
 - if you do not have a public key in your GitHub profile, use the HTTPS repo URL
 
-Yes, the repo is almost empty at the moment. It contains an initial state of the sophisticated legacy code we will work on.
-
+Yes, the repo is almost empty at the moment. It contains an initial state of the sophisticated legacy code we will work on
 
 Shortcuts
 ===============
@@ -41,5 +40,7 @@ Source... Shift+Alt+S (or in the menu)
 
 Delete a line Ctrl+D 
 
-
 Change method signature Alt+Shift+C 
+
+See wiki for the agenda with references to the repository (in Polish)
+===============
