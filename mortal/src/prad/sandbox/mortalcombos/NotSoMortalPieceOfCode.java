@@ -16,17 +16,21 @@ public class NotSoMortalPieceOfCode {
 
 		int index = getIntGenerator().randomIntForLimit(strings.length);
 
-		StringBuilder newStringBuilder = new StringBuilder(
-				string2.length());
+		return constructStringStartingFromIndex(strings, index);
+	}
+	private String constructStringStartingFromIndex(String[] strings, int index) {
+		WordAppender wordAppender = new WordAppender();
 		for (int i = index; i < strings.length; i++) {
-			newStringBuilder.append(strings[i]).append("\t");
+			String word = strings[i];
+			wordAppender.appendWord(word);
 		}
 
 		for (int i = 0; i < index; i++) {
-			newStringBuilder.append(strings[i]).append("\t");
+			String word = strings[i];
+			wordAppender.appendWord(word);
 		}
 
-		return newStringBuilder.toString();
+		return wordAppender.toString();
 	}
 	public IntGenerator getIntGenerator() {
 		return intGenerator;
