@@ -14,6 +14,8 @@ Yes, the repo is almost empty at the moment. It contains an initial state of the
 
 Shortcuts
 ===============
+Key Assist Ctrl+Shift+L (or Help -> Key Assist)
+
 Quick fix   Ctrl+1 
 
 Extract local variable Shift+Alt+L / Cmd+Alt+T
